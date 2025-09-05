@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/smart-tool-box/static/css/main.251eb9ee.css",
+    "main.js": "/smart-tool-box/static/js/main.65e83ba3.js",
+    "static/js/453.a0aacd08.chunk.js": "/smart-tool-box/static/js/453.a0aacd08.chunk.js",
+    "index.html": "/smart-tool-box/index.html",
+    "main.251eb9ee.css.map": "/smart-tool-box/static/css/main.251eb9ee.css.map",
+    "main.65e83ba3.js.map": "/smart-tool-box/static/js/main.65e83ba3.js.map",
+    "453.a0aacd08.chunk.js.map": "/smart-tool-box/static/js/453.a0aacd08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.251eb9ee.css",
+    "static/js/main.65e83ba3.js"
+  ]
+}
