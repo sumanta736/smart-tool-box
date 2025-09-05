@@ -14,11 +14,18 @@ const iconMap = {
 
 // ToolCard component for displaying tool cards with icons and accent
 const ToolCard = ({ title, description, link }) => (
-  <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center border border-blue-100 hover:scale-105 hover:shadow-2xl transition-transform duration-200">
-    <div className="mb-3 text-4xl">{iconMap[title] || <FaTools className="text-blue-400" />}</div>
-    <h3 className="font-bold text-lg mb-1 text-blue-700 text-center">{title}</h3>
-    <p className="text-gray-500 text-sm mb-4 text-center">{description}</p>
-    <Link to={link} className="mt-auto px-5 py-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-full font-semibold shadow hover:from-blue-600 hover:to-blue-800 transition">Open</Link>
+  <div className="relative group bg-gradient-to-br from-white via-blue-50 to-blue-100 rounded-3xl shadow-xl p-7 flex flex-col items-center border-2 border-transparent hover:border-blue-300 hover:shadow-2xl transition-all duration-200 min-h-[270px] font-sans">
+    {/* Floating animated icon */}
+    <div className="-mt-12 mb-2 z-10">
+      <div className="w-16 h-16 flex items-center justify-center rounded-full bg-gradient-to-tr from-blue-100 via-white to-blue-200 shadow-lg border-2 border-blue-200 group-hover:scale-110 group-hover:rotate-6 transition-transform duration-200">
+        {iconMap[title] || <FaTools className="text-blue-400 text-3xl" />}
+      </div>
+    </div>
+    <h3 className="font-extrabold text-lg md:text-xl mb-1 text-blue-800 text-center tracking-wide font-display drop-shadow-sm mt-2">{title}</h3>
+    <p className="text-gray-600 text-base md:text-lg mb-6 text-center leading-relaxed font-medium font-sans">{description}</p>
+    <Link to={link} className="mt-auto px-6 py-2 bg-gradient-to-r from-blue-500 to-teal-400 text-white rounded-full font-bold shadow-md hover:from-blue-600 hover:to-teal-500 hover:scale-105 transition-all duration-150 focus:outline-none focus:ring-2 focus:ring-blue-300 font-sans">Open Tool</Link>
+    {/* Decorative accent ring */}
+    <div className="absolute -top-6 left-1/2 -translate-x-1/2 w-20 h-20 rounded-full bg-gradient-to-tr from-blue-200 via-white to-blue-100 opacity-40 blur-2xl z-0" />
   </div>
 );
 
