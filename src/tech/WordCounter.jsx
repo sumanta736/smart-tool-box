@@ -4,38 +4,42 @@ import { Helmet } from 'react-helmet';
 const countWords = text => text.trim() ? text.trim().split(/\s+/).length : 0;
 const countChars = text => text.length;
 
+// Unique: Gradient background, word icon, modern card, vibrant accent
 const WordCounter = () => {
   const [text, setText] = useState('');
   const words = countWords(text);
   const chars = countChars(text);
 
   return (
-    <section className="container mx-auto px-4 py-12 w-full max-w-4xl font-sans">
-      <div className="bg-white rounded-3xl shadow-2xl p-8 border border-blue-100">
+    <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
+      <div className="bg-gradient-to-br from-orange-100 via-white to-blue-100 rounded-3xl shadow-2xl p-8 border border-orange-200">
         <Helmet>
           <title>Word Counter | Smart Tool Box</title>
           <meta name="description" content="Free online word and character counter. Count words and characters instantly as you type." />
         </Helmet>
-        <h1 className="text-3xl md:text-4xl font-extrabold text-blue-800 mb-4 text-center drop-shadow">Word Counter</h1>
+        <div className="flex items-center gap-3 mb-4 justify-center">
+          <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-orange-300 text-orange-900 text-3xl shadow-lg">🔠</span>
+          <h1 className="text-3xl md:text-4xl font-extrabold text-orange-700 drop-shadow tracking-wide">Word Counter</h1>
+        </div>
         <h2 className="text-lg text-blue-600 mb-6 text-center font-semibold">Count words and characters in your text</h2>
         <textarea
-          className="border rounded px-3 py-2 w-full min-h-[120px]"
+          className="border-2 border-orange-300 rounded px-3 py-2 w-full min-h-[120px] text-lg bg-blue-50 focus:ring-2 focus:ring-orange-400"
           value={text}
           onChange={e => setText(e.target.value)}
           placeholder="Type or paste your text here..."
         />
-        <div className="mt-4 flex gap-6 text-lg">
-          <div>Words: <span className="font-semibold">{words}</span></div>
-          <div>Characters: <span className="font-semibold">{chars}</span></div>
+        <div className="mt-4 flex gap-6 text-lg justify-center">
+          <div className="bg-orange-200 rounded-xl px-6 py-2 text-orange-900 font-bold shadow">Words: <span className="font-extrabold">{words}</span></div>
+          <div className="bg-blue-200 rounded-xl px-6 py-2 text-blue-900 font-bold shadow">Characters: <span className="font-extrabold">{chars}</span></div>
         </div>
         <article className="mt-8">
-          <h2 className="text-xl font-semibold mb-2">How to use the Word Counter?</h2>
+          <h2 className="text-xl font-semibold mb-2 text-orange-700">How to use the Word Counter?</h2>
           <p className="mb-2 text-gray-700">Paste or type your text above. The tool will instantly count the number of words and characters.</p>
-          <h3 className="font-semibold mt-4 mb-1">Example</h3>
+          <h3 className="font-semibold mt-4 mb-1 text-orange-700">Example</h3>
           <p className="text-gray-600">"Hello world!" has 2 words and 12 characters.</p>
         </article>
         <section className="mt-8" itemScope itemType="https://schema.org/FAQPage">
-          <h2 className="text-lg font-bold mb-2">Frequently Asked Questions</h2>
+          <h2 className="text-lg font-bold mb-2 text-orange-700">Frequently Asked Questions</h2>
           <div itemProp="mainEntity" itemScope itemType="https://schema.org/Question">
             <h3 className="font-semibold" itemProp="name">Is this word counter free?</h3>
             <div itemProp="acceptedAnswer" itemScope itemType="https://schema.org/Answer">
@@ -53,5 +57,4 @@ const WordCounter = () => {
     </section>
   );
 };
-
 export default WordCounter;

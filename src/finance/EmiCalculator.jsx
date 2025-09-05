@@ -21,7 +21,7 @@ const EmiCalculator = () => {
   const sliderTrack = 'bg-blue-200';
 
   return (
-    <section className="container mx-auto px-4 py-12 w-full max-w-4xl font-sans">
+    <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
       <Helmet>
         <title>EMI Calculator | Smart Tool Box</title>
         <meta name="description" content="Free EMI Calculator: Calculate your loan EMI, interest, and total payment instantly." />
