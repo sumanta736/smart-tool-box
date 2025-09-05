@@ -27,18 +27,18 @@ const Home = () => (
       <title>Smart Tool Box - Free Online Tools</title>
       <meta name="description" content="Smart Tool Box: Free online finance and tech tools. EMI, SIP, PDF, QR, JSON, and more!" />
     </Helmet>
-    <section className="bg-blue-50 py-12 text-center">
-      <h1 className="text-3xl md:text-5xl font-bold mb-4">Free Online Tools</h1>
-      <h2 className="text-lg md:text-2xl text-blue-700 mb-2">Finance & Tech Utilities in One Place</h2>
-      <p className="max-w-xl mx-auto text-gray-600">Smart Tool Box offers calculators, converters, and utilities for your daily needs. 100% free, fast, and privacy-friendly.</p>
+    <section className="bg-gradient-to-br from-blue-100 via-white to-blue-50 py-12 text-center border-b border-blue-200">
+      <h1 className="text-4xl md:text-6xl font-extrabold mb-4 text-blue-700 drop-shadow">Free Online Tools</h1>
+      <h2 className="text-xl md:text-2xl text-blue-600 mb-3 font-semibold">Finance & Tech Utilities in One Place</h2>
+      <p className="max-w-xl mx-auto text-gray-600 text-lg">Smart Tool Box offers calculators, converters, and utilities for your daily needs. 100% free, fast, and privacy-friendly.</p>
     </section>
-    <section className="container mx-auto px-4 py-8">
-      <h2 className="text-2xl font-semibold mb-4">Finance Tools</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
+    <section className="container mx-auto px-4 py-12">
+      <h2 className="text-3xl font-bold mb-6 text-blue-800 flex items-center gap-2"><span className="inline-block w-2 h-6 bg-blue-400 rounded-full mr-2"></span>Finance Tools</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-14">
         {financeTools.map(tool => <ToolCard key={tool.title} {...tool} />)}
       </div>
-      <h2 className="text-2xl font-semibold mb-4">Tech & Utility Tools</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <h2 className="text-3xl font-bold mb-6 text-blue-800 flex items-center gap-2"><span className="inline-block w-2 h-6 bg-blue-400 rounded-full mr-2"></span>Tech & Utility Tools</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {techTools.map(tool => <ToolCard key={tool.title} {...tool} />)}
       </div>
     </section>

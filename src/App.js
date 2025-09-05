@@ -21,6 +21,8 @@ import QrGenerator from './tech/QrGenerator';
 import RegexTester from './tech/RegexTester';
 import JsonFormatter from './tech/JsonFormatter';
 import PasswordGenerator from './tech/PasswordGenerator';
+import FinanceTools from './pages/FinanceTools';
+import TechTools from './pages/TechTools';
 
 function App() {
   return (
@@ -35,6 +37,7 @@ function App() {
             <Route path="/terms" element={<Terms />} />
             <Route path="/contact" element={<Contact />} />
             {/* Finance Tools */}
+            <Route path="/finance" element={<FinanceTools />} />
             <Route path="/finance/emi" element={<EmiCalculator />} />
             <Route path="/finance/sip" element={<SipCalculator />} />
             <Route path="/finance/fd" element={<FdCalculator />} />
@@ -43,6 +46,7 @@ function App() {
             <Route path="/finance/retirement" element={<RetirementCalculator />} />
             <Route path="/finance/crypto-profit" element={<CryptoProfitCalculator />} />
             {/* Tech Tools */}
+            <Route path="/tech" element={<TechTools />} />
             <Route path="/tech/pdf" element={<PdfTools />} />
             <Route path="/tech/image" element={<ImageTools />} />
             <Route path="/tech/word-counter" element={<WordCounter />} />
