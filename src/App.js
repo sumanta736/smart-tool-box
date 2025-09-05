@@ -1,24 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Privacy from './pages/Privacy';
+import Terms from './pages/Terms';
+import Contact from './pages/Contact';
+import EmiCalculator from './finance/EmiCalculator';
+import SipCalculator from './finance/SipCalculator';
+import FdCalculator from './finance/FdCalculator';
+import TaxCalculator from './finance/TaxCalculator';
+import CurrencyConverter from './finance/CurrencyConverter';
+import RetirementCalculator from './finance/RetirementCalculator';
+import CryptoProfitCalculator from './finance/CryptoProfitCalculator';
+import PdfTools from './tech/PdfTools';
+import ImageTools from './tech/ImageTools';
+import WordCounter from './tech/WordCounter';
+import CaseConverter from './tech/CaseConverter';
+import QrGenerator from './tech/QrGenerator';
+import RegexTester from './tech/RegexTester';
+import JsonFormatter from './tech/JsonFormatter';
+import PasswordGenerator from './tech/PasswordGenerator';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="flex flex-col min-h-screen">
+        <Navbar />
+        <main className="flex-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/contact" element={<Contact />} />
+            {/* Finance Tools */}
+            <Route path="/finance/emi" element={<EmiCalculator />} />
+            <Route path="/finance/sip" element={<SipCalculator />} />
+            <Route path="/finance/fd" element={<FdCalculator />} />
+            <Route path="/finance/tax" element={<TaxCalculator />} />
+            <Route path="/finance/currency" element={<CurrencyConverter />} />
+            <Route path="/finance/retirement" element={<RetirementCalculator />} />
+            <Route path="/finance/crypto-profit" element={<CryptoProfitCalculator />} />
+            {/* Tech Tools */}
+            <Route path="/tech/pdf" element={<PdfTools />} />
+            <Route path="/tech/image" element={<ImageTools />} />
+            <Route path="/tech/word-counter" element={<WordCounter />} />
+            <Route path="/tech/case-converter" element={<CaseConverter />} />
+            <Route path="/tech/qr-generator" element={<QrGenerator />} />
+            <Route path="/tech/regex-tester" element={<RegexTester />} />
+            <Route path="/tech/json-formatter" element={<JsonFormatter />} />
+            <Route path="/tech/password-generator" element={<PasswordGenerator />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
