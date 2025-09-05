@@ -1,10 +1,27 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 // Unique: Colorful gradient, fun icon, modern card, vibrant button colors
 const CaseConverter = () => {
   const [text, setText] = useState('');
   return (
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
+      <Helmet>
+        <title>Case Converter | Smart Tool Box</title>
+        <meta name="description" content="Free Case Converter: Convert text to uppercase, lowercase, title case, and more. Fast, private, and modern case conversion tool for everyone." />
+        <meta name="keywords" content="Case Converter, Uppercase, Lowercase, Title Case, Text Tools, Tech Tools, Smart Tool Box" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Case Converter | Smart Tool Box" />
+        <meta property="og:description" content="Free Case Converter: Convert text to uppercase, lowercase, title case, and more. Fast, private, and modern case conversion tool for everyone." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/tech/caseconverter" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Case Converter | Smart Tool Box" />
+        <meta name="twitter:description" content="Free Case Converter: Convert text to uppercase, lowercase, title case, and more. Fast, private, and modern case conversion tool for everyone." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/tech/caseconverter" />
+      </Helmet>
       <div className="bg-gradient-to-br from-pink-100 via-white to-blue-100 rounded-3xl shadow-2xl p-8 border border-pink-200">
         <div className="flex items-center gap-3 mb-4 justify-center">
           <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-200 text-blue-900 text-3xl shadow-lg">🔤</span>

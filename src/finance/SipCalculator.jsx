@@ -17,7 +17,19 @@ const SipCalculator = () => {
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
       <Helmet>
         <title>SIP Calculator | Smart Tool Box</title>
-        <meta name="description" content="Free SIP Calculator: Plan your SIP investments and see maturity instantly." />
+        <meta name="description" content="Free SIP Calculator: Calculate SIP maturity, total gain, and invested amount. Plan your mutual fund investments with a modern, accessible SIP calculator. No login required." />
+        <meta name="keywords" content="SIP Calculator, Mutual Fund SIP, SIP Maturity, SIP Gain, SIP Investment, SIP Planner, Smart Tool Box, Finance Tools, Investment Calculator, Mutual Fund Calculator" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="SIP Calculator | Smart Tool Box" />
+        <meta property="og:description" content="Free SIP Calculator: Calculate SIP maturity, total gain, and invested amount. Plan your mutual fund investments with a modern, accessible SIP calculator." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/finance/sip" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="SIP Calculator | Smart Tool Box" />
+        <meta name="twitter:description" content="Free SIP Calculator: Calculate SIP maturity, total gain, and invested amount. Plan your mutual fund investments with a modern, accessible SIP calculator." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/finance/sip" />
       </Helmet>
       <div className="bg-gradient-to-br from-teal-50 via-white to-green-100 rounded-3xl shadow-2xl p-8 border border-teal-200">
         <h1 className="text-4xl font-extrabold text-teal-800 mb-2 text-center drop-shadow tracking-wider">SIP Growth Visualizer</h1>

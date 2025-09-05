@@ -78,7 +78,19 @@ const TaxCalculator = () => {
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
       <Helmet>
         <title>Tax Calculator | Smart Tool Box</title>
-        <meta name="description" content="Free Tax Calculator: Estimate your tax liability instantly." />
+        <meta name="description" content="Free Tax Calculator: Estimate your Indian income tax liability instantly. Supports old/new regime, slab breakdown, surcharge, and cess." />
+        <meta name="keywords" content="Tax Calculator, Income Tax, Indian Tax, Tax Slabs, Tax Regime, Surcharge, Cess, Finance Tools, Smart Tool Box" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Tax Calculator | Smart Tool Box" />
+        <meta property="og:description" content="Free Tax Calculator: Estimate your Indian income tax liability instantly. Supports old/new regime, slab breakdown, surcharge, and cess." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/finance/tax" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Tax Calculator | Smart Tool Box" />
+        <meta name="twitter:description" content="Free Tax Calculator: Estimate your Indian income tax liability instantly. Supports old/new regime, slab breakdown, surcharge, and cess." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/finance/tax" />
       </Helmet>
       <div className="bg-gradient-to-br from-blue-50 via-white to-gray-100 rounded-3xl shadow-2xl p-8 border border-blue-100">
         <div className="flex items-center gap-3 mb-4 justify-center">

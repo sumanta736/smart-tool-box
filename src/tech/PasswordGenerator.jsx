@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 // Unique: Gradient background, lock icon, modern card, vibrant accent
 const similarChars = 'il1Lo0O';
@@ -60,6 +61,22 @@ const PasswordGenerator = () => {
 
   return (
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
+      <Helmet>
+        <title>Password Generator | Smart Tool Box</title>
+        <meta name="description" content="Free Password Generator: Create strong, secure passwords with advanced options. Copy to clipboard, check password strength, and more." />
+        <meta name="keywords" content="Password Generator, Strong Password, Secure Password, Tech Tools, Smart Tool Box, Password Strength, Copy Password" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Password Generator | Smart Tool Box" />
+        <meta property="og:description" content="Free Password Generator: Create strong, secure passwords with advanced options. Copy to clipboard, check password strength, and more." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/tech/password" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Password Generator | Smart Tool Box" />
+        <meta name="twitter:description" content="Free Password Generator: Create strong, secure passwords with advanced options. Copy to clipboard, check password strength, and more." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/tech/password" />
+      </Helmet>
       <div className="bg-gradient-to-br from-purple-100 via-white to-blue-100 rounded-3xl shadow-2xl p-8 border border-purple-200">
         <div className="flex items-center gap-3 mb-4 justify-center">
           <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-purple-300 text-purple-900 text-3xl shadow-lg">🔒</span>

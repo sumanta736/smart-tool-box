@@ -13,7 +13,19 @@ const CryptoProfitCalculator = () => {
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
       <Helmet>
         <title>Crypto Profit Calculator | Smart Tool Box</title>
-        <meta name="description" content="Free Crypto Profit Calculator: Calculate your crypto profits instantly." />
+        <meta name="description" content="Free Crypto Profit Calculator: Calculate your cryptocurrency profits and returns instantly. Fast, private, and modern crypto calculator for all coins." />
+        <meta name="keywords" content="Crypto Profit Calculator, Cryptocurrency, Crypto Returns, Crypto Tools, Smart Tool Box, Bitcoin, Ethereum" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Crypto Profit Calculator | Smart Tool Box" />
+        <meta property="og:description" content="Free Crypto Profit Calculator: Calculate your cryptocurrency profits and returns instantly. Fast, private, and modern crypto calculator for all coins." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/finance/crypto" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Crypto Profit Calculator | Smart Tool Box" />
+        <meta name="twitter:description" content="Free Crypto Profit Calculator: Calculate your cryptocurrency profits and returns instantly. Fast, private, and modern crypto calculator for all coins." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/finance/crypto" />
       </Helmet>
       <div className="bg-gradient-to-br from-pink-50 via-white to-blue-50 rounded-3xl shadow-2xl p-8 border border-pink-200">
         <h1 className="text-4xl font-extrabold text-pink-700 mb-2 text-center drop-shadow tracking-wider flex items-center justify-center gap-2">

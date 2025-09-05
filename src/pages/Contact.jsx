@@ -4,7 +4,19 @@ const Contact = () => (
   <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
     <Helmet>
       <title>Contact | Smart Tool Box</title>
-      <meta name="description" content="Contact Smart Tool Box: Get in touch for feedback, suggestions, or support." />
+      <meta name="description" content="Contact Smart Tool Box: Get in touch for feedback, support, or partnership inquiries. We value your input and are here to help!" />
+      <meta name="keywords" content="Contact, Smart Tool Box, Feedback, Support, Partnership, Help" />
+      <meta name="robots" content="index, follow" />
+      <meta property="og:title" content="Contact | Smart Tool Box" />
+      <meta property="og:description" content="Contact Smart Tool Box: Get in touch for feedback, support, or partnership inquiries. We value your input and are here to help!" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://yourdomain.com/contact" />
+      <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Contact | Smart Tool Box" />
+      <meta name="twitter:description" content="Contact Smart Tool Box: Get in touch for feedback, support, or partnership inquiries. We value your input and are here to help!" />
+      <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+      <link rel="canonical" href="https://yourdomain.com/contact" />
     </Helmet>
     <div className="bg-gradient-to-br from-teal-50 via-white to-blue-100 rounded-3xl shadow-2xl p-10 border border-teal-200">
       <div className="flex items-center gap-3 mb-6 justify-center">

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 // Unique: Gradient background, regex icon, modern card, vibrant accent
 const RegexTester = () => {
@@ -12,6 +13,22 @@ const RegexTester = () => {
   }
   return (
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
+      <Helmet>
+        <title>Regex Tester | Smart Tool Box</title>
+        <meta name="description" content="Free Regex Tester: Test and debug regular expressions online. Fast, private, and modern regex testing tool for developers." />
+        <meta name="keywords" content="Regex Tester, Regular Expressions, Regex Debug, Tech Tools, Smart Tool Box, Regex Tool" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Regex Tester | Smart Tool Box" />
+        <meta property="og:description" content="Free Regex Tester: Test and debug regular expressions online. Fast, private, and modern regex testing tool for developers." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/tech/regex" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Regex Tester | Smart Tool Box" />
+        <meta name="twitter:description" content="Free Regex Tester: Test and debug regular expressions online. Fast, private, and modern regex testing tool for developers." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/tech/regex" />
+      </Helmet>
       <div className="bg-gradient-to-br from-indigo-100 via-white to-blue-100 rounded-3xl shadow-2xl p-8 border border-indigo-200">
         <div className="flex items-center gap-3 mb-4 justify-center">
           <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-indigo-300 text-indigo-900 text-3xl shadow-lg">.*</span>

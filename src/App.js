@@ -13,6 +13,8 @@ import TaxCalculator from './finance/TaxCalculator';
 import CurrencyConverter from './finance/CurrencyConverter';
 import RetirementCalculator from './finance/RetirementCalculator';
 import CryptoProfitCalculator from './finance/CryptoProfitCalculator';
+import LoanAffordabilityCalculator from './tech/LoanAffordabilityCalculator';
+import GoalPlanner from './tech/GoalPlanner';
 import PdfTools from './tech/PdfTools';
 import ImageTools from './tech/ImageTools';
 import WordCounter from './tech/WordCounter';
@@ -21,6 +23,7 @@ import QrGenerator from './tech/QrGenerator';
 import RegexTester from './tech/RegexTester';
 import JsonFormatter from './tech/JsonFormatter';
 import PasswordGenerator from './tech/PasswordGenerator';
+import UnitConverter from './tech/UnitConverter';
 import FinanceTools from './pages/FinanceTools';
 import TechTools from './pages/TechTools';
 
@@ -55,6 +58,9 @@ function App() {
             <Route path="/tech/regex-tester" element={<RegexTester />} />
             <Route path="/tech/json-formatter" element={<JsonFormatter />} />
             <Route path="/tech/password-generator" element={<PasswordGenerator />} />
+            <Route path="/tech/unit-converter" element={<UnitConverter />} />
+            <Route path="/tech/loan-affordability" element={<LoanAffordabilityCalculator />} />
+            <Route path="/tech/goal-planner" element={<GoalPlanner />} />
           </Routes>
         </main>
         <Footer />

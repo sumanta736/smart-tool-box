@@ -15,7 +15,19 @@ const WordCounter = () => {
       <div className="bg-gradient-to-br from-orange-100 via-white to-blue-100 rounded-3xl shadow-2xl p-8 border border-orange-200">
         <Helmet>
           <title>Word Counter | Smart Tool Box</title>
-          <meta name="description" content="Free online word and character counter. Count words and characters instantly as you type." />
+          <meta name="description" content="Free Word Counter: Count words, characters, and paragraphs instantly. Fast, private, and modern word counting tool for writers and students." />
+          <meta name="keywords" content="Word Counter, Word Count, Character Count, Paragraph Count, Tech Tools, Smart Tool Box, Writing Tools" />
+          <meta name="robots" content="index, follow" />
+          <meta property="og:title" content="Word Counter | Smart Tool Box" />
+          <meta property="og:description" content="Free Word Counter: Count words, characters, and paragraphs instantly. Fast, private, and modern word counting tool for writers and students." />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://yourdomain.com/tech/wordcounter" />
+          <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Word Counter | Smart Tool Box" />
+          <meta name="twitter:description" content="Free Word Counter: Count words, characters, and paragraphs instantly. Fast, private, and modern word counting tool for writers and students." />
+          <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+          <link rel="canonical" href="https://yourdomain.com/tech/wordcounter" />
         </Helmet>
         <div className="flex items-center gap-3 mb-4 justify-center">
           <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-orange-300 text-orange-900 text-3xl shadow-lg">🔠</span>

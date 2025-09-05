@@ -23,7 +23,19 @@ const FdCalculator = () => {
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
       <Helmet>
         <title>FD Calculator | Smart Tool Box</title>
-        <meta name="description" content="Free FD Calculator: Calculate your Fixed Deposit maturity and interest instantly." />
+        <meta name="description" content="Free FD Calculator: Calculate your Fixed Deposit maturity and interest instantly. Modern, private, and easy-to-use FD calculator for all banks." />
+        <meta name="keywords" content="FD Calculator, Fixed Deposit, FD Maturity, FD Interest, Finance Tools, Smart Tool Box, Bank FD Calculator" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="FD Calculator | Smart Tool Box" />
+        <meta property="og:description" content="Free FD Calculator: Calculate your Fixed Deposit maturity and interest instantly. Modern, private, and easy-to-use FD calculator for all banks." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/finance/fd" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="FD Calculator | Smart Tool Box" />
+        <meta name="twitter:description" content="Free FD Calculator: Calculate your Fixed Deposit maturity and interest instantly. Modern, private, and easy-to-use FD calculator for all banks." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/finance/fd" />
       </Helmet>
       <div className="bg-gradient-to-br from-indigo-50 via-white to-lime-100 rounded-3xl shadow-2xl p-8 border border-indigo-200">
         <div className="flex items-center gap-3 mb-6 justify-center">

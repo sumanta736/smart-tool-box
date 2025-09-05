@@ -4,7 +4,19 @@ const About = () => (
   <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
     <Helmet>
       <title>About | Smart Tool Box</title>
-      <meta name="description" content="About Smart Tool Box: Free online calculators and utilities for finance and tech." />
+      <meta name="description" content="Learn about Smart Tool Box: a free, modern collection of finance and tech tools. Discover our mission, features, and commitment to privacy and accessibility." />
+      <meta name="keywords" content="About, Smart Tool Box, Finance Tools, Tech Tools, Mission, Features, Accessibility, Privacy" />
+      <meta name="robots" content="index, follow" />
+      <meta property="og:title" content="About | Smart Tool Box" />
+      <meta property="og:description" content="Learn about Smart Tool Box: a free, modern collection of finance and tech tools. Discover our mission, features, and commitment to privacy and accessibility." />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://yourdomain.com/about" />
+      <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="About | Smart Tool Box" />
+      <meta name="twitter:description" content="Learn about Smart Tool Box: a free, modern collection of finance and tech tools. Discover our mission, features, and commitment to privacy and accessibility." />
+      <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+      <link rel="canonical" href="https://yourdomain.com/about" />
     </Helmet>
     <div className="bg-gradient-to-br from-blue-50 via-white to-teal-100 rounded-3xl shadow-2xl p-10 border border-teal-200">
       <div className="flex items-center gap-3 mb-6 justify-center">

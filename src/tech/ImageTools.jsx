@@ -1,10 +1,27 @@
 import { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 // Unique: Gradient background, camera icon, modern card, vibrant accent
 const ImageTools = () => {
   const [file, setFile] = useState(null);
   return (
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
+      <Helmet>
+        <title>Image Tools | Smart Tool Box</title>
+        <meta name="description" content="Free Image Tools: Resize, compress, and convert images online. Fast, private, and modern image editing tools for everyone." />
+        <meta name="keywords" content="Image Tools, Image Resize, Image Compress, Image Convert, Tech Tools, Smart Tool Box, Image Editing" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Image Tools | Smart Tool Box" />
+        <meta property="og:description" content="Free Image Tools: Resize, compress, and convert images online. Fast, private, and modern image editing tools for everyone." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/tech/image" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Image Tools | Smart Tool Box" />
+        <meta name="twitter:description" content="Free Image Tools: Resize, compress, and convert images online. Fast, private, and modern image editing tools for everyone." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/tech/image" />
+      </Helmet>
       <div className="bg-gradient-to-br from-yellow-100 via-white to-blue-100 rounded-3xl shadow-2xl p-8 border border-yellow-200">
         <div className="flex items-center gap-3 mb-4 justify-center">
           <span className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-blue-200 text-blue-900 text-3xl shadow-lg">📷</span>

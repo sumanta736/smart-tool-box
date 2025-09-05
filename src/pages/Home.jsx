@@ -10,8 +10,8 @@ const financeTools = [
   { title: 'Currency Converter', description: 'Convert currencies live.', link: '/finance/currency' },
   { title: 'Retirement Calculator', description: 'Plan your retirement corpus.', link: '/finance/retirement' },
   { title: 'Crypto Profit Calculator', description: 'Calculate crypto profits.', link: '/finance/crypto-profit' },
-  { title: 'Loan Affordability Calculator', description: 'Find out how much loan you can afford.', link: '/finance/loan-affordability' },
-  { title: 'Goal Planner', description: 'Plan and track your financial goals.', link: '/finance/goal-planner' },
+  { title: 'Loan Affordability Calculator', description: 'Find out how much loan you can afford.', link: '/tech/loan-affordability' },
+  { title: 'Goal Planner', description: 'Plan and track your financial goals.', link: '/tech/goal-planner' },
 ];
 const techTools = [
   { title: 'PDF Tools', description: 'Merge, split, compress PDFs.', link: '/tech/pdf' },
@@ -28,8 +28,20 @@ const techTools = [
 const Home = () => (
   <>
     <Helmet>
-      <title>Smart Tool Box - Free Online Tools</title>
-      <meta name="description" content="Smart Tool Box: Free online finance and tech tools. EMI, SIP, PDF, QR, JSON, and more!" />
+      <title>Smart Tool Box: Free Finance & Tech Tools</title>
+      <meta name="description" content="Smart Tool Box offers free, modern finance and tech tools: SIP Calculator, Tax Calculator, Password Generator, QR Generator, and more. No login required. Fast, private, and accessible." />
+      <meta name="keywords" content="Smart Tool Box, Finance Tools, Tech Tools, SIP Calculator, Tax Calculator, Password Generator, QR Generator, EMI Calculator, FD Calculator, Online Tools, Free Tools" />
+      <meta name="robots" content="index, follow" />
+      <meta property="og:title" content="Smart Tool Box: Free Finance & Tech Tools" />
+      <meta property="og:description" content="Smart Tool Box offers free, modern finance and tech tools: SIP Calculator, Tax Calculator, Password Generator, QR Generator, and more. No login required. Fast, private, and accessible." />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://yourdomain.com/" />
+      <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Smart Tool Box: Free Finance & Tech Tools" />
+      <meta name="twitter:description" content="Smart Tool Box offers free, modern finance and tech tools: SIP Calculator, Tax Calculator, Password Generator, QR Generator, and more. No login required. Fast, private, and accessible." />
+      <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+      <link rel="canonical" href="https://yourdomain.com/" />
     </Helmet>
     {/* Hero Section with animated icons and background shapes */}
     <section className="relative bg-gradient-to-br from-blue-100 via-white to-blue-50 py-16 text-center border-b border-blue-200 overflow-hidden">

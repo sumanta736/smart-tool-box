@@ -5,7 +5,19 @@ const Terms = () => (
   <section className="container mx-auto px-4 py-12 w-full max-w-3xl font-sans">
     <Helmet>
       <title>Terms & Conditions | Smart Tool Box</title>
-      <meta name="description" content="Terms & Conditions for using Smart Tool Box online tools." />
+      <meta name="description" content="Read the Terms & Conditions for using Smart Tool Box. Understand your rights and responsibilities when using our free finance and tech tools." />
+      <meta name="keywords" content="Terms and Conditions, Smart Tool Box, User Agreement, Finance Tools, Tech Tools, Legal" />
+      <meta name="robots" content="index, follow" />
+      <meta property="og:title" content="Terms & Conditions | Smart Tool Box" />
+      <meta property="og:description" content="Read the Terms & Conditions for using Smart Tool Box. Understand your rights and responsibilities when using our free finance and tech tools." />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://yourdomain.com/terms" />
+      <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Terms & Conditions | Smart Tool Box" />
+      <meta name="twitter:description" content="Read the Terms & Conditions for using Smart Tool Box. Understand your rights and responsibilities when using our free finance and tech tools." />
+      <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+      <link rel="canonical" href="https://yourdomain.com/terms" />
     </Helmet>
     <div className="bg-gradient-to-br from-orange-50 via-white to-pink-100 rounded-3xl shadow-2xl p-8 border border-orange-200">
       <div className="flex items-center gap-3 mb-4">

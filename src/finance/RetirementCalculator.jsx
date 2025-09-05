@@ -17,7 +17,19 @@ const RetirementCalculator = () => {
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
       <Helmet>
         <title>Retirement Calculator | Smart Tool Box</title>
-        <meta name="description" content="Free Retirement Calculator: Plan your retirement corpus and see maturity instantly." />
+        <meta name="description" content="Free Retirement Calculator: Plan your retirement corpus and see maturity instantly. Modern, private, and easy-to-use retirement planning tool." />
+        <meta name="keywords" content="Retirement Calculator, Retirement Planning, Retirement Corpus, Finance Tools, Smart Tool Box, Pension Calculator" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Retirement Calculator | Smart Tool Box" />
+        <meta property="og:description" content="Free Retirement Calculator: Plan your retirement corpus and see maturity instantly. Modern, private, and easy-to-use retirement planning tool." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/finance/retirement" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Retirement Calculator | Smart Tool Box" />
+        <meta name="twitter:description" content="Free Retirement Calculator: Plan your retirement corpus and see maturity instantly. Modern, private, and easy-to-use retirement planning tool." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/finance/retirement" />
       </Helmet>
       <div className="bg-gradient-to-br from-purple-100 via-white to-blue-50 rounded-3xl shadow-2xl p-8 border border-purple-200">
         <h1 className="text-4xl font-extrabold text-purple-800 mb-2 text-center drop-shadow tracking-wider">Retirement Goal Tracker</h1>

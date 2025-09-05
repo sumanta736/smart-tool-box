@@ -25,6 +25,19 @@ const EmiCalculator = () => {
       <Helmet>
         <title>EMI Calculator | Smart Tool Box</title>
         <meta name="description" content="Free EMI Calculator: Calculate your loan EMI, interest, and total payment instantly." />
+        <meta name="description" content="Free EMI Calculator: Calculate your monthly loan EMI, total payment, and interest. Fast, private, and modern EMI calculator for all loan types." />
+        <meta name="keywords" content="EMI Calculator, Loan EMI, Monthly EMI, Loan Interest, Finance Tools, Smart Tool Box, Payment Calculator" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="EMI Calculator | Smart Tool Box" />
+        <meta property="og:description" content="Free EMI Calculator: Calculate your monthly loan EMI, total payment, and interest. Fast, private, and modern EMI calculator for all loan types." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/finance/emi" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="EMI Calculator | Smart Tool Box" />
+        <meta name="twitter:description" content="Free EMI Calculator: Calculate your monthly loan EMI, total payment, and interest. Fast, private, and modern EMI calculator for all loan types." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/finance/emi" />
       </Helmet>
       <div className="bg-gradient-to-br from-blue-100 via-white to-blue-50 rounded-3xl shadow-2xl p-8 border border-blue-200">
         <h1 className="text-4xl font-extrabold text-blue-800 mb-2 text-center drop-shadow">EMI Calculator</h1>

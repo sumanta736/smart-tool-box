@@ -11,7 +11,19 @@ const CurrencyConverter = () => {
     <section className="container mx-auto px-4 py-12 w-full max-w-6xl font-sans">
       <Helmet>
         <title>Currency Converter | Smart Tool Box</title>
-        <meta name="description" content="Free Currency Converter: Convert currencies instantly." />
+        <meta name="description" content="Free Currency Converter: Convert between major world currencies instantly. Fast, private, and modern currency conversion tool." />
+        <meta name="keywords" content="Currency Converter, Currency Exchange, Forex, Finance Tools, Smart Tool Box, Money Converter" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Currency Converter | Smart Tool Box" />
+        <meta property="og:description" content="Free Currency Converter: Convert between major world currencies instantly. Fast, private, and modern currency conversion tool." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://yourdomain.com/finance/currency" />
+        <meta property="og:image" content="https://yourdomain.com/logo512.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Currency Converter | Smart Tool Box" />
+        <meta name="twitter:description" content="Free Currency Converter: Convert between major world currencies instantly. Fast, private, and modern currency conversion tool." />
+        <meta name="twitter:image" content="https://yourdomain.com/logo512.png" />
+        <link rel="canonical" href="https://yourdomain.com/finance/currency" />
       </Helmet>
       <div className="bg-gradient-to-br from-blue-50 via-white to-gray-100 rounded-3xl shadow-2xl p-8 border border-blue-200">
         <h1 className="text-4xl font-extrabold text-blue-800 mb-2 text-center drop-shadow tracking-wider flex items-center justify-center gap-2">
