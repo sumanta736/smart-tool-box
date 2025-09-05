@@ -7,7 +7,7 @@ const CurrencyConverter = () => {
   const converted = amount && rate ? (Number(amount) * Number(rate)).toFixed(2) : '';
 
   return (
-    <section className="container mx-auto px-4 py-12 max-w-xl font-sans">
+    <section className="container mx-auto px-4 py-12 w-full max-w-4xl font-sans">
       <div className="bg-white rounded-3xl shadow-2xl p-8 border border-blue-100">
         <h1 className="text-3xl md:text-4xl font-extrabold text-blue-800 mb-4 text-center drop-shadow">Currency Converter</h1>
         <h2 className="text-lg text-blue-600 mb-6 text-center font-semibold">Convert currencies live</h2>
